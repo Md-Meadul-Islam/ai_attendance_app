@@ -1,0 +1,17 @@
+numpy
+pandas
+
+#FACE Recognitation
+scikit-learn #Machine learning library
+dlib-bin #Dlib binary dependencies
+git+https://github.com/ageitgey/face_recognition_models
+setuptools<70.0.0 # setuptools
+
+#database
+supabase #PostgreSQL-based database
+bcrypt #Password hashing
+
+segno #Qr code generator
+pillow #Image pre-processing
+
+streamlit #Web framework
