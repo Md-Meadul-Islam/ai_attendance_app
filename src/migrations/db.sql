@@ -17,7 +17,7 @@ CREATE TABLE subjects (
   section text default 'N/A',
   teacher_id bigint references teachers (teacher_id) on delete set null
 );
-CREATE TABLE student_subjects (
+CREATE TABLE subject_students (
   subject_id bigint references subjects (subject_id) on delete cascade,
   student_id bigint references students (student_id) on delete cascade,
   primary key (subject_id, student_id)

@@ -15,3 +15,6 @@ segno #Qr code generator
 pillow #Image pre-processing
 
 streamlit #Web framework
+
+librosa #Audio processing
+resemblyzer #Voice cloning and speech synthesis

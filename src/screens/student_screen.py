@@ -164,6 +164,7 @@ def student_screen():
                             face_emb = encodings[0].tolist()
 
                             voice_emb = None
+                            print(168, audio_data)
                             if audio_data:
                                 voice_emb = get_voice_embedding(audio_data.read())
 
